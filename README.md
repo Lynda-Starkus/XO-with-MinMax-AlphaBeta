@@ -3,7 +3,7 @@
 Tic-Tac-Toe is a classic strategy game where two players take turns marking X's and O's on a 3x3 grid until one player gets three in a row, either horizontally, vertically, or diagonally.
 
 This optimization adds the case of an AI player to the existing game and implements the alpha-beta pruning algorithm to improve the AI's decision-making process.
-
+![](demo.gif)
 ## Implementation 
 The code is an implementation of the alpha-beta pruning algorithm for a two-player zero-sum game. It calculates the optimal move for a player in a game by using a minimax algorithm with alpha-beta pruning and memoization to reduce the number of states that need to be evaluated. The algorithm is applied recursively and a value of the game state (value) and precision of the calculation (precise) is returned.
 
